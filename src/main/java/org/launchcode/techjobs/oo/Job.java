@@ -110,15 +110,51 @@ public class Job {
 //                "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue() + lineSeparator());
 //    }
 
+//    @Override
+//    public String toString() {
+//        return System.lineSeparator() +
+//                "ID: " + id + System.lineSeparator() +
+//                "Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator() +
+//                "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator() +
+//                "Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator() +
+//                "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator() +
+//                "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) + System.lineSeparator();
+//    }
+
+//    @Override
+//    public String toString() {
+//        return System.lineSeparator() +
+//                "ID: " + id + System.lineSeparator() +
+//                "Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator() +
+//                "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator() +
+//                "Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator() +
+//                "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator() +
+//                "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue());
+//    }
+
+//    @Override
+//    public String toString() {
+//        return System.lineSeparator() +
+//                "ID: " + id + System.lineSeparator() +
+//                "Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator() +
+//                "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator() +
+//                "Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator() +
+//                "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator() +
+//                "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) +
+//                System.lineSeparator();
+//    }
+
     @Override
     public String toString() {
-        return System.lineSeparator() +
-                "ID: " + id + System.lineSeparator() +
-                "Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator() +
-                "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator() +
-                "Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator() +
-                "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator() +
-                "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) + System.lineSeparator();
+        return
+                System.lineSeparator() +
+                        "ID: " + id + System.lineSeparator() +
+                        "Name: " + (name.isEmpty() ? "Data not available" : name) + System.lineSeparator() +
+                        "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer.getValue()) + System.lineSeparator() +
+                        "Location: " + (location.getValue().isEmpty() ? "Data not available" : location.getValue()) + System.lineSeparator() +
+                        "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType.getValue()) + System.lineSeparator() +
+                        "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency.getValue()) +
+                        System.lineSeparator();
     }
 
 
